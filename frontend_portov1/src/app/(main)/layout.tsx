@@ -2,7 +2,9 @@
 
 import FloatingNavDemo from "@/components/navbar/navbar";
 import { NavBar } from "@/components/ui/tubelight-navbar";
-import { FolderCheck, FolderCode, FolderKanban, Hammer, Home, LucideCircleChevronLeft, Mail, PenToolIcon, PersonStandingIcon, ToolCase, User, Wrench } from "lucide-react";
+import { motion } from "motion/react";
+import { LampContainer } from "../../components/ui/lamp";
+import { FolderCode, Hammer, Home, Mail, User} from "lucide-react";
 
 export default function MainLayout({ children }: { children: React.ReactNode }) {
     const navItems = [
